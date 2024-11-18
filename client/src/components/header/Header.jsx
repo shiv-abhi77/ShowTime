@@ -38,7 +38,7 @@ const Header = () => {
     return (
         <HeaderBox>
             <Toolbar>
-                <AppTitle onClick={() => { if(location.pathname !== '/') navigate('/')}} style = {{cursor :'pointer'}}>MovieVerse</AppTitle>
+                <AppTitle onClick={() => { if(location.pathname !== '/') navigate('/')}} style = {{cursor :'pointer'}}>ShowTime</AppTitle>
                 <NavRight>
                 <NavRightContent onClick={() => { if(location.pathname.includes('explore') === false) navigate('/explore')}} style={{cursor:'pointer'}} >Explore</NavRightContent>
                 {
