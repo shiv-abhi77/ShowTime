@@ -1,4 +1,4 @@
-# MovieVerse
+# ShowTime
  A web app through which user can see details of various movies. Frontend inspiration from TMDB website
 
 ### Main features:
